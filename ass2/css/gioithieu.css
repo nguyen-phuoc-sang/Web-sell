@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+.header{
+    border: 1px solid black;
+    height: 80%;
+}
+.logo{
+    position: absolute;
+    float: left;
+}
+.menu>a{
+    font-variant: small-caps;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.ne{
+    position: absolute;
+    top: 45%;
+    right: 50px;
+}
+.pre{
+    position: absolute;
+    top: 45%;
+    left: 50px;
+}
+.pre:hover{
+    background-color: gray;
+}
+.ne:hover{
+    background-color: gray;
+}
+.menu{
+    background-color:powderblue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    position: fixed;
+    float: left;
+}
+.main{
+    height: 5800px;
+    background-color: rgb(250, 249, 248);
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.tieude{
+    font-size: 70px;
+    color: red;
+    padding-top: 50px;
+    text-align: center;
+}
+.mau{
+    color: blueviolet;
+    font-size: 40px;
+    padding-left: 1100px;
+}
+.chu{
+    font-size: 30px;
+    padding-left: 1100px; 
+}
+.thacmac{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+.khung{
+    border: 70px solid black;
+    width: 1350px;
+    height: 730px;
+}
+.bth{
+    color: blueviolet;
+    font-size: 40px;
+    padding-left: 30px;
+}
+footer{
+    height: 400px;
+    background-color: pink;
+}
+.lienhe{
+    width: 47%;
+    height: 100%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.dangki{
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+.lienhe>h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cochu{
+    font-size: 35px;
+}
+.banquyen{
+    text-align: center;
+    background-color: pink;
+    font-size: 25px;
+    border-top:1px solid black;
+}
+.trangchu{
+    background-color: red;
+}

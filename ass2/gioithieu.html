@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMi store</title>
+    <link rel="stylesheet" href="css/gioithieu.css">
+    <script>
+        var img = [];
+        var index = 0;
+        var sohinh = 4;
+        for (var i = 0; i < sohinh; i++) {
+            img[i] = new Image();
+            img[i].src = "image/" + i + ".jpg";
+        }
+    </script>
+    <script>
+        function tiep() {
+            index++;
+            if (index >= img.length) {
+                index = 0;
+            }
+            var anh = document.getElementById("anh");
+            anh.src = img[index].src;
+        }
+    </script>
+    <script>
+        function lui() {
+            index--;
+            if (index < 0) {
+                index = img.length - 1;
+            }
+            var anh = document.getElementById("anh");
+            anh.src = img[index].src;
+        }
+    </script>
+    <script>
+        function delay() {
+            var t;
+            t = window.setInterval(tiep, 3000);
+        }
+    </script>
+</head>
+
+<body onload="delay()">
+    <!-- tạo cho menu cố định khi khách hàng lướt web  -->
+    <div class="menu">
+        <a href="index.html">trang chủ </a>
+        <!-- // class trang chủ dùng để đổi màu nền khi click vào menu -->
+        <a class="trangchu"href="gioithieu.html">giới thiệu </a>   
+        <a href="sanpham.html">sản phẩm </a>
+        <a href="lienhe.html">liên hệ </a>
+        <a href="chinhsach.html">chính sách </a>
+        <a href="loai.html">phân loại figure</a>
+        <a href="dangki.html">đăng kí</a>
+</div>
+    <div class="header">
+        <!-- giips logo cố định ở trên bên trái -->
+        <img class="logo" src="image/sang.PNG" width="150" height="99">
+        <img id="anh" src="image/0.jpg" width="100%" height="100%">
+        <button class="pre"onclick="lui()"> < </button>
+        <button class="ne" onclick="tiep()"> > </button>
+    </div>a
+    <hr>
+    <div class="main">
+        <!-- tạo màu, kích thước, vị trí của tiêu đề -->
+        <div class="tieude">Giới thiệu về figure</div><br><br>
+        <img src="image/fi.jpeg" align="left" width="1000px" height="700" style="padding-left: 40;" />
+        <div class="mau"> * Figure là gì ?</div><br>
+        <div class="chu">Là mô hình, là tượng, là bất kỳ cách gọi nào liên quan đến những tạo tác 3D<br> cầm nắm được
+            trên
+            tay, mô phỏng lại nhân vật trong bức vẽ, phim, truyện, game...
+            Thông thường figure mang hình dạng con người, đôi khi là động vật, thực vật,<br> quái vật, yêu tinh, thần
+            thánh,
+            thậm chí là sinh vật ngoài tinh...nhân vật nào được điêu khắc thành 3D thì được gọi chung là figure.</div>
+        <br><br>
+        <div class="mau"> * Japan Figure là gì ?</div><br>
+        <div class="chu">1. Là những figure được các họa sĩ Nhật Bản sáng tạo, vẽ minh họa, điêu khắc và hoàn thiện thiết
+            kế đầu tiên - prototype tại Nhật Bản.<br>
+            2. Sau đó phần lớn thiết kế này được gửi đi sản xuất hàng loạt tại Trung Quốc.<br> Nên sản phẩm cuối cùng bạn cầm
+            trên tay có chữ “Made in China” là chuyện rất bình thường.<br>
+            3. Vì xuất xứ từ Nhật nên hiển nhiên Japan figure mang đậm văn hóa Nhật từ Anime, Manga, Game, Light novel,
+            J-pop cho đến ca sĩ ảo, streamer ảo v…v…</div><br><br><br><br><br>
+        <div class="thacmac"><strong>Tới đây hẳn bạn đang thắc mắc:
+            "Làm thế nào để phân biệt được hàng Nhật và hàng nhái từ Trung Quốc?”</strong></div><br><br>
+        <div style="font-size: 30; text-align: center;">Yên tâm nhé Japan Figure đã chuẩn bị sẵn cho bạn 1 số mẹo phân biệt cực ký hữu ích.</div><br><br>
+        <center><iframe class="khung" width="1300" height="700" src="https://www.youtube.com/embed/iWaWW8FYQ2c" title="Sự khác biệt giữa mô hình chính hãng và fake. Cách nhận biết cơ bản" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center><br><br><br>
+        <div class="bth">* YAMI store</div>
+        <div style="font-size: 30;"> - Là nơi chuyên cung cấp figure chính hãng của Nhật Bản tại Việt Nam<br><br>
+            - YAMI store là thiên đường với những bạn quan tâm, theo đuổi vẻ đẹp toàn vẹn, đam mê figure cao cấp và đây mê hoặc của Nhật Bản.<br><br>
+            - Nếu nhu cầu của bạn chỉ dừng lại ở figure chất lượng thấp, hàng nhái, giả, không có bản quyền… thì rất tiếc Japan Figure không phải là nơi phù hợp dành cho bạn.<br><br>                        
+            Từ tháng 8/2012, sau 11 năm phục vụ, YAMI store rất vui nhận được sự ủng hộ đông đảo từ người sưu tầm trên khắp VN.<br><br>             
+            Tại YAMI store chúng tôi:<br><br>            
+            + Chuyên cung cấp figure chất lượng cao của Nhật Bản. <br>
+            + Cập nhật thông tin sản phẩm mới mỗi ngày.<br>
+            + Giải đáp cho bạn mọi thắc mắc về figure, cách mua hàng, hỗ trợ vận chuyển miễn phí.<br>
+            + Săn tìm figure từ hiếm cho đến cực hiếm</div><br><br><br>
+        <div class="thacmac">Các bộ sưu tập figure của khách hàng của Shop</div><br><br><br>
+        <div>
+            <img src="image/k1.jpg" align="left" width="1000px" height="700" style="padding-left: 40;" />
+            <img src="image/mat.jpg" width="400px" height="400" style="padding-left: 200;" />
+        </div>
+        <div>
+            <img src="image/k2.webp" align="right" width="1000px" height="700" style="padding-left: 40;" />
+            <img src="image/mat.jpg" width="400px" height="400" style="padding-left: 200;" />
+        </div>
+        <div>
+            <img src="image/k3.jpg" align="left" width="1000px" height="700" style="padding-left: 40;" />
+            <img src="image/mat.jpg" width="400px" height="400" style="padding-left: 200;" />
+        </div>
+        <div>
+            <img src="image/k4.jpg" align="right" width="1000px" height="700" style="padding-left: 40;" />
+            <img src="image/mat.jpg" width="400px" height="400" style="padding-left: 200;" />
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+        <div class="thacmac">>>> Nhanh tay nhanh chân sắm cho mình nhân vật bạn yêu thích đi nào !!!</div>
+    </div>
+    <footer>
+        <!-- chia footer ra 2 phần lienhe là phần bên trái -->
+        <div class="lienhe">
+            <h1>LIÊN HỆ CHÚNG TÔI</h1>
+            <div class="cochu"><strong>Địa chỉ</strong>: 39/15 đường số 5 phường 17 quận Gò Vấp
+                thành phố Hồ Chí Minh.<br> Shop bán hàng online nên vui lòng hẹn
+                shop trước 1 ngày để giao dịch ạ.<br>
+                <strong>Số điện thoại</strong>: 0837152561.<br>
+                <strong>Gmail: </strong>tohkakuriyama104@gmail.com
+            </div>
+        </div>
+        <!-- dangki là phần bên phải -->
+        <div class="dangki">
+            <h1>ĐĂNG KÍ THEO DÕI NGAY TẠI</h1>
+            <a href="https://www.facebook.com/profile.php?id=100018699482520">
+                <img src="image/fa.png" height="240px" width="240px"></a>
+            <a href="https://www.youtube.com/channel/UCfCS_sl_yltz9eBv20jof1A">
+                <img src="image/yu.png" height="240px" width="240px"></a>
+        </div>
+    </footer>
+    <div class="banquyen">Bản quyền thuộc sở hữu của YAMI </div>
+</body>
+
+</html>
